@@ -30,15 +30,15 @@ function canvaswater() {
  * program loader. 
  */
 onload = function(){
-	if (!document.getElementById('canvaswater')) { return false; }
+	if (!document.getElementById('canvaswaterb')) { return false; }
 	if (!document.getElementById('wrapper')) { return false; }
 	
-	var canvas = document.getElementById('canvaswater');
+	var canvas = document.getElementById('canvaswaterb');
 	if (!canvas.getContext) { return false; }
 	
 	cm.setContext(canvas.getContext('2d'));
-	cm.setOffsetLeft($("#canvaswater").offset()["left"]);
-	cm.setOffsetTop($("#canvaswater").offset()["top"]);
+	cm.setOffsetLeft($("#canvaswaterb").offset()["left"]);
+	cm.setOffsetTop($("#canvaswaterb").offset()["top"]);
 	cm.setWidth($("#wrapper").width());
 	cm.setHeight($("#wrapper").height());
 
