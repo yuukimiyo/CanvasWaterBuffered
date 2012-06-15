@@ -6,7 +6,12 @@
     height:100%;
 }
 
-#canvaswater{
+#canvaswaterb{
+    visibility: hidden; 
+}
+
+#canvaswaterbv{
+    
 
 }
 
