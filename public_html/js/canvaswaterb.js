@@ -81,9 +81,9 @@ onload = function(){
 }
 
 function AnimationManager() {
-	var _cm;
-	var _cmv;
-	var _r;
+	var _cm;	// background canvas manager
+	var _cmv;	// visible canvas manager
+	var _r;		
 	
 	this.setCanvasManager = function(c, cv) {
 		_cm = c;
@@ -121,7 +121,7 @@ function CanvasManager(){
 	var radius = startRadius;
 	
 	/**
-	 * context 's setter & getter
+	 * context 's setter
 	 */
 	this.setContext = function(c) {
 		ctx = c;
